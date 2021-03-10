@@ -1,0 +1,342 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+ #brain1{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+background-position: 0px;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 227px 270px;
+text-align: center;
+margin-bottom: 200px;
+}
+
+#brain1 h1{
+    font-size: 80px;
+    color: #212529;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#brain1 h3{
+    color: #212529;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+#brain1 a{
+    border: 2px solid #1d809f;
+    border-radius: 5px;
+    padding: 20px 40px;
+    background-color: #1d809f;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+#brain2{
+    text-align: center;
+    margin-bottom:170px;
+}
+
+#brain2 h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 32px;
+    color: #212529;
+
+   
+}
+
+
+#brain2 p{
+    font-size: 20px;
+  
+ font-weight: 100;
+  margin-bottom: 50px;
+}
+#brain2 a{
+    border: 2px solid #343a40;
+    border-radius: 5px;
+    padding: 20px 40px;
+    background-color: #343a40;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+   
+}  
+
+#brain3{
+    background-color: #1d809f;
+overflow: auto;
+padding: 50px 1px 150px 1px;
+  
+}
+
+
+.brain1to3 {
+    text-align: center;
+} 
+.brain1to3 h3{
+    color: #ecb807;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 100px;
+
+
+}
+.brain1to3 h2{
+    font-size: 3rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+}
+.kidney{
+  float: left;
+  width: 19%;  
+  font-family: 'Source Sans Pro', sans-serif;
+ 
+ 
+
+}
+.kidney i{
+    color: #1d809f;
+border: 1px solid #fff;
+border-radius: 100px;
+padding: 30px;
+font-size: 30px;
+background-color: #fff;
+}
+.kidney1 i{    
+    color: #1d809f;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    padding: 27px 34px;
+    font-size: 30px;
+    background-color: #fff;
+}
+.kidney1{
+    float: left;
+    width: 17%;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 250px;
+
+
+}
+.kidney4 i{   color: #1d809f;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    padding: 29px 26px;
+    font-size: 30px;
+    background-color: #fff;
+}
+.kidney4{
+    float: left;
+    width: 24%;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.kidney4 p{
+    font-size: 16px
+} 
+
+
+#forth{
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg);
+    padding: 227px 290px;
+    margin-bottom: 120px;
+}
+#forth h1{
+    font-size: 56px;
+    color: #212529;
+    font-family: 'Source Sans Pro', sans-serif;
+ margin-bottom: 50px;
+}
+
+
+
+
+#forth a{
+    border: 2px solid #1D8091;
+    border-radius: 5px;
+    padding: 20px 40px;
+    background-color: #1D8091;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+.fifth1{
+text-align: center;
+
+}
+.fifth1 h3{
+    color: #ecb807;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+   
+
+
+}
+.fifth1 h2{
+    font-size: 48px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212529;
+    padding-bottom: 50px;
+}
+.fifth{
+    padding: 6rem 0;
+
+}
+.fifth2{
+margin: auto;
+width: 80%;
+
+}
+
+#fifth .fifthbox{
+position: relative;
+float: left;
+width: 50%;
+transition: 0.9s;
+
+}
+
+.fifthbox img{
+    width: 100%;
+}
+
+
+.fifthbox .boxtext{
+    position:absolute;
+    bottom: 15%;
+    left: 8%;
+    
+
+}
+
+.fifthbox .boxtext h2 {
+    color: #fff;
+
+    font-family: 'Source Sans Pro', sans-serif ;
+    font-weight: 300;
+    font-size: 32px;
+} 
+
+    
+.fifthbox .boxtext p {
+    color: #fff;
+
+
+    font-weight: 300;
+    font-size: 1.2rem
+}
+.overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  background-color:#1D8091 ;
+   opacity: 0;
+   transition: 0.4s;
+}
+.boxtext{
+    z-index: 899;
+}
+.fifth2 .fifthbox  :hover.overlay {
+ opacity: 0.7;
+}
+.fifth2 .fifthbox:hover{
+    transform: scale(0.8);
+}
+#sixth{
+    text-align: center;
+    background-color:#1D8091;
+    padding: 110px 0px ;
+
+
+}
+#sixth h2{
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif ;
+    margin-bottom: 50px;
+}
+#sixth .one {
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 20px 40px;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin-right: 31px;
+}
+
+#sixth .two{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px 40px;
+    background-color: black;
+    color:#fff;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+   
+}
+.gift{
+    font-size: 24px;
+    float: left;
+width: 7%;
+border: 1px solid #1D8091 ;
+border-radius: 100% ;
+background-color: #1d809f ;
+color: #ffffff;
+padding:19px 48px 19px 26px;
+margin-top: 100px;
+text-align: center;
+}
+
+
+#seventh{
+    text-align: center;
+    margin-left: 550px;
+
+}
+
+.myicon{
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 4px;
+    z-index: 999;
+    padding: 20px;
+}
+   
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
